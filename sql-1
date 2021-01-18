@@ -4,11 +4,8 @@ company and contains approximately 1000000 records. I have completed several tas
 
 
 
-
-
 #Task1
 Create a visualization that provides a breakdown between the male and female employees working in the company each year, starting from 1990. 
-
 
 SELECT 
 	ee.gender,
@@ -33,12 +30,8 @@ ORDER BY calender_year;
 
 
 
-
-
-'''
-Task2
+#Task2
 Compare the number of male managers to the number of female managers from different departments for each year, starting from 1990.
-'''
 
 SELECT 
     d.dept_name, ee.gender, dm.emp_no, dm.from_date, dm.to_date, e.calendar_year,
@@ -63,11 +56,9 @@ ORDER BY dm.emp_no, calendar_year;
 
 
 
-
 #Task 3 
 Compare the average salary of female versus male employees in the entire company until year 2002, and add a filter allowing you 
 to see that per each department
-
 
 SELECT
 	e.gender,
@@ -91,7 +82,6 @@ ORDER BY d.dept_no;
 #Task 4 
 Create an SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range.
 Let this range be defined by two values the user can insert when calling the procedure.
-
 
 SELECT MIN(salary) FROM t_salaries;
 SELECT MAX(salary) FROM t_salaries;
