@@ -1,4 +1,6 @@
 # sql-excel_examples
 
-This link consisit my tableau files
+In this reposit there are sql and excel samples. If you want to see my tableau files click below
+
+This link consist my tableau files
 https://drive.google.com/drive/folders/1c_k3Nn40MKodoKX42yVX3i9c5JLt7CoP
